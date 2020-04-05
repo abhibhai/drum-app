@@ -14,7 +14,7 @@ for (var i = 0; i < 7; i++) {
         ba(event.key);
 });
 
-for (var j = 0; i < 7; i++) {
+for (var j = 0; j < 7; j++) {
   document.querySelectorAll("button")[j].addEventListener("touchstart", function() {
 
 
