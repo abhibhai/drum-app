@@ -14,10 +14,16 @@ for (var i = 0; i < 7; i++) {
         ba(event.key);
 });
 
-document.addEventListener("touchstart",function(event) {
-      makesound(event.key);
-      ba(event.key);
-});
+for (var j = 0; i < 7; i++) {
+  document.querySelectorAll("button")[j].addEventListener("touchstart", function() {
+
+
+    var swt = this.innerHTML;
+    makesound(swt);
+    ba(swt);
+  });
+
+}
 
 
 
